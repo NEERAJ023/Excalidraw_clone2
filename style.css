@@ -1,0 +1,185 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.header_bar{
+display:flex;
+justify-content: space-between;
+padding:20px;
+align-items: center;
+position:absolute;
+position:fixed;
+left:20px;
+top:15px;
+z-index: 1;
+width:97%;
+padding: 0px;
+
+}
+.menu>i{
+    border:none;
+    background-color: #ececf4;
+    padding:10px 12px;
+    border-radius:8px;
+    cursor:pointer;
+    
+}
+.display{
+    display:none;
+}
+.write{
+    position:fixed;
+    top:80px;
+    left:400px;
+}
+.write>p>span{
+    color:#6965db;
+}
+.card{
+    border:1px solid #ededed;
+    width:220px;
+    position:absolute;
+    position:fixed;
+    top:70px;
+    left:20px;
+    box-shadow: 5px 10px  14px #ededed;
+    border-radius:10px;
+    padding:10px;
+   z-index:1;
+}
+.card>.card_item:hover{
+    background-color:#e0dfff;
+}
+.card>.h_line{
+    width:100%;
+    height:2px;
+    background-color: #ededed;
+    margin:8px 0px;
+}
+.card>.card_item{
+    display: flex;
+    gap:10px;
+    border-radius:7px;
+    padding:10px;
+    
+}
+
+.menu>i:hover{
+    background-color: #e9e9e9;
+}
+.iconsbar{
+    display:flex;
+    border:none;
+    width:600px;
+    height:40px;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 5px 10px  14px #ededed;
+    border-radius: 8px;
+    padding:5px 0px 5px 0px;
+    border:1px solid #ededed;
+}
+.iconsbar>span{
+    height:75%;
+    width:2px;
+    background-color:#ececf4;
+}
+.library{
+    display:flex;
+    align-items: center;
+    gap:16px;
+}
+.user{
+    display:flex;
+    background-color: #6965db;
+    width:35px;
+    height:35px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+}
+.book-content{
+    display:flex;
+    background-color: #ececf4;
+    width:95px;
+    height:40px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.book-content:hover{
+    background-color:#d7d6f7;
+   
+}
+.iconsbar>div{
+    padding:10px;
+    border-radius:12px;
+}
+.iconsbar>div:hover{
+      background-color: #e0dfff;
+      cursor:pointer;
+}
+
+canvas{
+
+    position:relative;
+    
+}
+.active{
+    background-color: #6965db;
+}
+.show{
+    background-color:blue;
+}
+footer{
+    display:flex;
+    position:absolute;
+    position:fixed;
+    bottom:20px;
+    bottom:15px;
+    width:100%;
+    align-items: center;;
+    justify-content: space-between;
+    
+}
+.first{
+    display:flex;
+    gap:20px;
+    margin:0px 0px 0px 20px;
+}
+.first .zoom{
+    display:flex;
+    background-color: #ececf4;
+    width:140px;
+    justify-content: space-around;
+    padding:10px 10px;
+    border-radius:10px;
+}
+
+.first .left_right{
+    display:flex;
+    justify-content: space-around;
+    padding:10px 0px;
+    width:80px;
+    background-color: #ececf4;
+    border-radius:7px;
+}
+.second{
+    display:flex;
+    gap:8px;
+    margin:0px 20px 0px 0px;
+}
+.second .icon{
+    padding:10px 0px;
+    width:35px;
+    background-color: #ececf4;
+    border-radius:6px;
+    text-align: center;
+    cursor: pointer;
+}
+.icon{
+    cursor: pointer;
+}

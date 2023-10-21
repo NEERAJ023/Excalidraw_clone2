@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excalidraw</title>
+    <link rel="icon" href="asstests/Screenshot 2023-10-21 200833.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="header_bar">
+            <div class="menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="iconsbar">
+                <div><i class="fa-solid fa-lock-open"></i></div>
+                <span class="line"></span>
+                <div class="hand" ><i class="fa-regular fa-hand"></i></div>
+                <div class="error"><i class="fa-solid fa-arrow-left"></i><sub>1</sub></div>
+                <div class="square"><i class="fa-regular fa-square"></i><sub>2</sub></div>
+                <div class="triangle"><i class="fa-solid fa-play"></i></i><sub>3</sub></div>
+                <div class="circle"><i class="fa-regular fa-circle"></i><sub>4</sub></div>
+                <div class="errow"><i class="fa-solid fa-arrow-right"></i><sub>5</sub></div>
+                <div class="minus"><i class="fa-solid fa-minus"></i><sub>6</sub></div>
+                <div class="pencil"><i class="fa-solid fa-pencil"></i><sub>7</sub></div>
+                <div class="alphabat"><i class="fa-solid fa-a"></i><sub>8</sub></div>
+                <div class="image"><i class="fa-regular fa-image"></i><sub>9</sub></div>
+                <div class="eraser"><i class="fa-solid fa-eraser"></i><sub>0</sub></div>
+                <span class="line"></span>
+                <div class="mix"><i class="fa-solid fa-shapes"></i></div>
+            </div>
+            <div class="library">
+                <div class="user">
+                    <i class="fa-regular fa-user"></i>
+                </div>
+                <div class="book-content">
+                    <div class="book">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+                    <div class="content">library</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="card">
+        <div class="card_item">
+            <div class="icon"><i class="fa-regular fa-folder"></i></div>
+            <p>open</p>
+        </div>
+        <div class="card_item">
+            <div class="icon"><i class="fa-solid fa-download"></i></div>
+            <p>Save to</p>
+        </div>
+        <div class="card_item">
+            <div class="icon"><i class="fa-regular fa-image"></i></div>
+            <p>Export image</p>
+        </div>
+        <div class="card_item">
+            <div class="icon"><i class="fa-regular fa-user"></i></div>
+            <p>Live collaboration</p>
+        </div>
+        <div class="card_item">
+            <div class="icon"><i class="fa-regular fa-circle-question"></i></div>
+            <p>Help</p>
+        </div>
+        <div class="card_item">
+            <div class="icon"><i class="fa-solid fa-trash-can"></i></div>
+            <p>Reset the canvas</p>
+        </div>
+        
+        <div class="h_line"></div>
+
+        <div class="card_item">
+            <div class="icon"><i class="fa-solid fa-gift"></i></div>
+            <p color="pink">Excalidraw+</p>
+        </div>
+        <div class="card_item">
+            <div class="icon"><i class="fa-brands fa-github"></i></div>
+            <p>Github</p>
+        </div>
+        <div class="card_item">
+            <div class="icon"><i class="fa-brands fa-discord"></i></div>
+            <p>Discord</p>
+        </div>
+        <div class="card_item">
+            <div class="icon"><i class="fa-brands fa-twitter"></i></div>
+            <p>Twitter</p>
+        </div>
+
+        <div class="h_line"></div>
+
+        <div class="card_item">
+            <div class="icon"><i class="fa-solid fa-moon"></i></div>
+            <p>Dark mode</p>
+        </div>
+        
+    </div>
+    <div class="write">
+        <p>To move canvas,hold mouse wheel and spacebar while dragging,<span color="red"> or use the pencil, line</span></p>
+    </div>
+    <div class="main"></div>
+    <canvas id="canvas"></canvas>
+    <footer>
+        <div class="first">
+            <div class="zoom">
+                <div class="icon"><i class="fa-solid fa-minus"></i></div>
+                <p>100%</p>
+                <div class="icon"><i class="fa-solid fa-plus"></i></div>
+            </div>
+            <div class="left_right">
+                <div class="icon"><i class="fa-solid fa-rotate-left"></i></div>
+                <div class="icon"><i class="fa-solid fa-rotate-right"></i></div>
+            </div>
+        </div>
+        <div class="second">
+            <div class="icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <div class="icon"><i class="fa-regular fa-circle-question"></i></div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
